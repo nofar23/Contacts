@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="ADD_CONTACT">ADD CONTACT</string>
+    <string name="SHOW_CONTACT">SHOW CONTACT</string>
+    <string name="TAKE_PICTURE">TAKE PICTURE</string>
+    <string name="PICK_BIRTH_DATE">PICK BIRTH DATE</string>
+    <string name="PICK_TIME_DATE">PICK TIME TO CALL</string>
+    <string name="PICK_BEST_DAYS">PICK BEST DAYS</string>
+    <string name="Full_Name">full name</string>
+    <string name="Phone_Number">phone number</string>
+    <string name="mail">email</string>
+    <string name="address">address</string>
+    <string name="website">website</string>
+    <string name="picture">Picture</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="preferred_hour">Preferred hour</string>
+    <string name="preferred_day">Preferred day</string>
+
+    <string-array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>

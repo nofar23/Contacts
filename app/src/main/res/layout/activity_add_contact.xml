@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+
+      <EditText
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/name"
+          android:hint="@string/Full_Name"
+
+          />
+      <EditText
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/phone_number"
+          android:layout_below="@+id/name"
+          android:hint="@string/Phone_Number"
+
+          />
+
+      <EditText
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/mail"
+          android:layout_below="@+id/phone_number"
+          android:hint="@string/mail"
+
+          />
+
+      <EditText
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/address"
+          android:layout_below="@+id/mail"
+          android:hint="@string/address"
+
+          />
+
+      <EditText
+          android:layout_width="220dp"
+          android:layout_height="wrap_content"
+          android:id="@+id/website"
+          android:layout_below="@+id/address"
+          android:hint="@string/website"
+
+          />
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:text="@string/PICK_BIRTH_DATE"
+          android:id="@+id/pick_birth_date"
+          android:layout_below="@id/website"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/date_output"
+          android:layout_toEndOf="@id/pick_birth_date"
+          android:layout_below="@id/website"
+          android:layout_margin="10dp"/>
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:text="@string/PICK_TIME_DATE"
+          android:id="@+id/pick_time_date"
+          android:layout_below="@id/pick_birth_date"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/time_output"
+          android:layout_toEndOf="@id/pick_time_date"
+          android:layout_below="@id/date_output"
+          android:layout_margin="15dp"/>
+
+      <Button
+          android:layout_width="150dp"
+          android:layout_height="wrap_content"
+          android:text="@string/PICK_BEST_DAYS"
+          android:id="@+id/pick_best_days"
+          android:layout_below="@id/pick_time_date"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/best_days_output"
+          android:layout_toEndOf="@id/pick_best_days"
+          android:layout_below="@id/time_output"
+          android:layout_margin="15dp"/>
+
+
+
+
+
+      <ImageView
+          android:layout_width="50dp"
+          android:layout_height="60dp"
+          android:layout_toEndOf="@+id/mail"
+          android:id="@+id/picture_contact"
+          android:layout_marginLeft="30dp"
+          android:layout_marginTop="30dp"/>
+
+      <Button
+          android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:text="@string/TAKE_PICTURE"
+          android:id="@+id/take_pic"
+          android:layout_toEndOf="@+id/mail"
+          android:layout_below="@+id/picture_contact"
+          android:layout_margin="30dp"
+          />
+
+
+
+
+
+   
+
+
+
+
+
+
+</RelativeLayout>
